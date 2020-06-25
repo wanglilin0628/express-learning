@@ -1,16 +1,9 @@
 const express = require('express')
 const app = express()
+const fortune = require('./lib/fortune')
 
 // 设置handlebars
 const handlebars = require('express-handlebars').create({ defaultLayout:'main' })
-
-let fortunes = [
-  "AAA",
-  "BBB",
-  "CCC",
-  "DDD"
-]
-
 app.engine('handlebars', handlebars.engine)
 app.set('view engine', 'handlebars')
 
@@ -28,8 +21,8 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
   // res.type('text/plain')
   // res.send('About Meadowlark Travel')
-  let randomFortune = fortunes[Math.floor(Math.random() * fortunes.length)]
-  res.render('about', { fortune: randomFortune })
+  // let randomFortune = fortunes[Math.floor(Math.random() * fortunes.length)]
+  res.render('about', { fortune: fortune.getFortune() })
 })
 
 
