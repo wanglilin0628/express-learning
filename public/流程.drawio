@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2021-01-20T11:17:38.277Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75" version="14.2.5" etag="EW600EHYtVjOVqk7G10G" type="github"><diagram id="61GpaZ5qgXql0InNwU1m">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-20T14:48:02.525Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75" etag="Au6AQY9Tl-P1ewcyC1RW" version="14.2.5" type="github">
+  <diagram id="61GpaZ5qgXql0InNwU1m" name="第 1 页">
+    <mxGraphModel dx="942" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k4p_ovW88HtdkAKdd0fO-12" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="780" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="k4p_ovW88HtdkAKdd0fO-1" value="" style="shape=mxgraph.bpmn.user_task;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="230" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k4p_ovW88HtdkAKdd0fO-2" value="" style="endArrow=block;endFill=1;endSize=6;html=1;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="100" y="239.58" as="sourcePoint" />
+            <mxPoint x="160" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k4p_ovW88HtdkAKdd0fO-3" value="进入项目&lt;br&gt;（前端项目）" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k4p_ovW88HtdkAKdd0fO-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k4p_ovW88HtdkAKdd0fO-4" target="k4p_ovW88HtdkAKdd0fO-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k4p_ovW88HtdkAKdd0fO-4" value="填写配置项&lt;br&gt;（前端项目）" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k4p_ovW88HtdkAKdd0fO-6" value="url" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="220" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k4p_ovW88HtdkAKdd0fO-7" value="" style="endArrow=block;endFill=1;endSize=6;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="k4p_ovW88HtdkAKdd0fO-4">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="280" y="240" as="sourcePoint" />
+            <mxPoint x="380" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k4p_ovW88HtdkAKdd0fO-8" value="配置项：{ ... }&lt;br&gt;&lt;ul style=&quot;line-height: 170%&quot;&gt;&lt;li&gt;服务器地址 host: STRING&lt;/li&gt;&lt;li&gt;服务器端口 port: STRING&lt;/li&gt;&lt;li&gt;上下文路径 path: STRING&lt;/li&gt;&lt;li&gt;压缩格式 type: INT&lt;/li&gt;&lt;li&gt;项目模板类型 template: STRING&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="290" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="k4p_ovW88HtdkAKdd0fO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k4p_ovW88HtdkAKdd0fO-9" target="k4p_ovW88HtdkAKdd0fO-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k4p_ovW88HtdkAKdd0fO-9" value="点击导出代码&lt;br&gt;（前端向后端发送请求）" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k4p_ovW88HtdkAKdd0fO-13" value="直接导出代码功能" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k4p_ovW88HtdkAKdd0fO-14" value="根据传入的配置进行项目打包并返回" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="640" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
